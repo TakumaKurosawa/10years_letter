@@ -19,18 +19,39 @@ div.section {
   display: table;
 }
 div.to-family {
-  background-image: url(../image/paskel.png);
+  background-image: url(../image/toFamily.jpg);
+  background-position: top;
 }
 div.to-friends {
-  background-image: url(../image/paskel.png);
+  background-image: url(../image/toFriend.jpg);
+  background-color: rgba(164, 46, 147, 0.5);
 }
 div.to-respect {
-  background-image: url(../image/paskel.png);
+  background-image: url(../image/toRespect.jpg);
+  background-color: rgba(164, 46, 147, 0.5);
 }
 div.to-couple {
-  background-image: url(../image/paskel.png);
+  background-image: url(../image/toCouple.jpg);
+  background-color: rgba(164, 46, 147, 0.5);
 }
 div.section>h1 {
   display: table-cell;
   vertical-align: middle;
+  text-align: left;
+  padding-left: 50px;
+  color: black;
+  z-index: 10;
+}
+.bg-blur {
+  position: relative;
+}
+.bg-blur:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: rgba(255, 255, 255, .4);
+  z-index: 2;
 }
