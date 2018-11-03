@@ -1,0 +1,20 @@
+html,body {
+  overflow: hidden;
+  height: 100%;
+}
+div.signin{
+  width: 50%;
+  margin: 10% auto;
+}
+form.user {
+  background-color: rgb(200, 200, 200);
+  padding: 30px;
+}
+form.user>input {
+  display: block;
+  margin: 20px auto;
+}
+form.user>a {
+  display: block;
+  text-align: center;
+}

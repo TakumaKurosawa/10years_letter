@@ -1,0 +1,16 @@
+html,body {
+  overflow: hidden;
+  height: 100%;
+}
+div.login{
+  width: 50%;
+  margin: 20% auto;
+}
+form.user {
+  background-color: rgb(200, 200, 200);
+  padding: 30px;
+}
+form.user>input {
+  display: block;
+  margin: 20px auto;
+}
