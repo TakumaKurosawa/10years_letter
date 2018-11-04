@@ -12,7 +12,7 @@ div.wrapper {
 div.section {
   height: 25%;
   width: 100%;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -24,34 +24,26 @@ div.to-family {
 }
 div.to-friends {
   background-image: url(../image/toFriend.jpg);
-  background-color: rgba(164, 46, 147, 0.5);
 }
 div.to-respect {
   background-image: url(../image/toRespect.jpg);
-  background-color: rgba(164, 46, 147, 0.5);
 }
 div.to-couple {
   background-image: url(../image/toCouple.jpg);
-  background-color: rgba(164, 46, 147, 0.5);
+  background-position: 25% 25%;
 }
-div.section>h1 {
+.bg-blur {
+  background: rgba(255, 255, 255, .2);
+  height: 100%;
+  display: table;
+  width: 100%;
+}
+div.bg-blur>h1 {
   display: table-cell;
   vertical-align: middle;
   text-align: left;
-  padding-left: 50px;
+  padding-left: 100px;
   color: black;
-  z-index: 10;
-}
-.bg-blur {
-  position: relative;
-}
-.bg-blur:after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
-  height: 100%;
-  background: rgba(255, 255, 255, .4);
-  z-index: 2;
+  font-family: 'arial unicode ms';
+  font-weight: bold;
 }
