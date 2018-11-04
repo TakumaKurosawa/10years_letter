@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/top.css">
+    <link rel="stylesheet" href="css/slick/slick.css"/>
+    <link rel="stylesheet" href="css/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script type="text/javascript" src="css/slick/slick.min.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+        <div class="slideShow">
+          <div class="image">
+            <img src="image/future.png" alt="" class="">
+
+          </div>
+          <div class="image">
+            <img src="image/lovers.png" alt="" class="">
+
+          </div>
+          <div class="image">
+            <img src="image/maternity.png" alt="" class="">
+
+          </div>
+      </div>
+    </div>
+    <img src="image/logo.png" alt="" width="200px" class="logo">
+    <a href="#"><img src="image/blueLetter.png" alt="" class="bounce goNext"></a>
+    <h2>Sand Boxは<br>未来の自分，大切な人に<br>メッセージを届けるサービスです。</h2>
+
+    <script type="text/javascript">
+
+      $(function(){
+
+        $('.slideShow').slick({
+          autoplaySpeed: 1000,
+          cssEase: 'ease-in-out',
+          autoplay: true,
+          autoplaySpeed: 1000,
+          infinite: true,
+          autoplaySpeed: 3000,
+          speed: 500
+        });
+      });
+    </script>
+  </body>
+</html>
